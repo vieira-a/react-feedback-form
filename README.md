@@ -43,10 +43,17 @@ Inicio: 16/01/2023 | Fim: 23/01/202
 
 **Tarefas**
 - [x] Inicializar projeto
+- [x] Setup do projeto
   - [x] Construir README
-  - [ ] Configurar arquivos iniciais e instalar dependências
-- [ ] Criar estrutura de arquivos
+  - [x] Configurar arquivos iniciais e instalar dependências
+    - [x] Styled-components
+    - [x] React-Router-Dom
+    - [x] Phospher Icons
+    - [x] GlobalStyle (estilos globais, tipografia e cores)
+- [x] Criar estrutura de arquivos
+  - [x] Componentes (páginas) principais: informações do usuário, registro de satisfação e recomendações do usuário, e página final da aplicação.
 
+- [ ] Criar rotas da aplicação com react-router-dom
 
 ## Layout
 
