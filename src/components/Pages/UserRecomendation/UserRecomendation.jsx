@@ -1,5 +1,10 @@
+import Header from "../../Header/Header";
+
 export default function UserRecomendation () {
   return (
-    <h1>UserRecomendation</h1>
+    <>
+    <Header />
+      <h1>UserRecomendation</h1>
+    </>
   )
 }

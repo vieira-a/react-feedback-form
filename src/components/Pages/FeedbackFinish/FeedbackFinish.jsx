@@ -1,5 +1,10 @@
+import Header from "../../Header/Header"
+
 export default function FeedbackFinish () {
   return (
-    <h1>FeedbackFinish</h1>
+    <>
+      <Header />
+      <h1>FeedbackFinish</h1>
+    </>
   )
 }

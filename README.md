@@ -53,6 +53,10 @@ Inicio: 16/01/2023 | Fim: 23/01/202
 - [x] Criar estrutura de arquivos
   - [x] Componentes (páginas) principais: informações do usuário, registro de satisfação e recomendações do usuário, e página final da aplicação.
 
+- [ ] Criar componentes estáticos e importá-los para as páginas que irão exibí-los
+  - [x] Header
+  - [ ] Footer
+
 - [ ] Criar rotas da aplicação com react-router-dom
 
 ## Layout
