@@ -10,7 +10,6 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
 		font-size: ${fs.paragraph['md']};
 		font-weight: 400;
-		color: ${color.zinc['200']};
     -webkit-font-smoothing: antialiased;
   }
 
@@ -22,6 +21,9 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-text-size-adjust: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
+  }
+  ul {
+    list-style: none;
   }
 
 	h1 {
