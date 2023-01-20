@@ -1,3 +1,4 @@
+import Footer from "../../Footer/Footer";
 import Header from "../../Header/Header";
 
 export default function UserRecomendation () {
@@ -5,6 +6,7 @@ export default function UserRecomendation () {
     <>
     <Header />
       <h1>UserRecomendation</h1>
+      <Footer />
     </>
   )
 }

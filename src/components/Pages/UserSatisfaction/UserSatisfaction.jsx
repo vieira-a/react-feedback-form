@@ -1,3 +1,4 @@
+import Footer from "../../Footer/Footer"
 import Header from "../../Header/Header"
 
 export default function UserSatisfaction () {
@@ -5,6 +6,7 @@ export default function UserSatisfaction () {
     <>
       <Header />
       <h1>UserSatisfaction</h1>
+      <Footer />
     </>
   )
 

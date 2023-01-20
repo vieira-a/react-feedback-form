@@ -1,3 +1,4 @@
+import Footer from "../../Footer/Footer"
 import Header from "../../Header/Header"
 
 export default function FeedbackFinish () {
@@ -5,6 +6,7 @@ export default function FeedbackFinish () {
     <>
       <Header />
       <h1>FeedbackFinish</h1>
+      <Footer />
     </>
   )
 }
