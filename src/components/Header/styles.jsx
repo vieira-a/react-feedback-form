@@ -43,7 +43,7 @@ export const IconSignOut = styled(SignOut)`
 export const IconUserCircle = styled(UserCircle)` 
   cursor: pointer;
   font-size: 32px;
-  color: ${props => props.active ? color.fuchsia['600'] : color.zinc['700']};
+  color: ${color.zinc['700']};
   &:hover{
     transition: 0.7s;
     color: ${color.fuchsia['600']};

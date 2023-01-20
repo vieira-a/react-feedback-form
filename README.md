@@ -57,6 +57,12 @@ Inicio: 16/01/2023 | Fim: 23/01/202
   - [x] Header
   - [ ] Footer
 
+- [ ] Criar conteúdo das páginas
+  - [x] UserInfo
+  - [ ] UserSatisfaction
+  - [ ] UserRecomendation
+  - [ ] FeedbackFinish
+
 - [ ] Criar rotas da aplicação com react-router-dom
 
 ## Layout

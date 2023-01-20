@@ -5,7 +5,7 @@ export default function Header () {
     <>
       <S.Header>
         <div>
-          <S.Heading bold>Service Feedback Form</S.Heading>
+          <S.Heading bold>Service Feedback</S.Heading>
           <S.Text sm>Sua experiência utilizando os nossos serviços</S.Text>
         </div>
         <button>
@@ -16,7 +16,7 @@ export default function Header () {
         <S.Navigation>
           <S.Menu>
             <S.MenuOptions>
-              <a href="#"><S.IconUserCircle active/></a>
+              <a href="#"><S.IconUserCircle /></a>
               <S.ProgressLine />
             </S.MenuOptions>
             <S.MenuOptions>
