@@ -20,7 +20,6 @@ export const GlobalStyle = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     overflow-x: hidden;
-    overflow-y: hidden;
   }
   ul {
     list-style: none;

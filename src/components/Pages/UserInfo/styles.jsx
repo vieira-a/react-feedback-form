@@ -47,9 +47,9 @@ export const SectionController = styled.section`
 export const IconForward = styled(CaretRight)`
   cursor: pointer;
   font-size: 48px;
-  color: ${color.zinc['700']};
+  color: ${color.fuchsia['600']};
   &:hover{
     transition: 0.7s;
-    color: ${color.fuchsia['600']};
+    transform: scale(1.2);
   }
 `

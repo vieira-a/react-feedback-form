@@ -1,5 +1,6 @@
 import * as S from './styles';
 import Header from "../../Header/Header";
+import Footer from '../../Footer/Footer';
 
 export default function UserInfo () {
   return (
@@ -18,6 +19,7 @@ export default function UserInfo () {
           <S.IconForward />
         </S.SectionController>
       </S.UserInfoMain>
+      <Footer />
     </>
   )
 }

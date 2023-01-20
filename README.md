@@ -55,7 +55,7 @@ Inicio: 16/01/2023 | Fim: 23/01/202
 
 - [ ] Criar componentes estáticos e importá-los para as páginas que irão exibí-los
   - [x] Header
-  - [ ] Footer
+  - [x] Footer
 
 - [ ] Criar conteúdo das páginas
   - [x] UserInfo

@@ -5,12 +5,11 @@ import { SignOut, UserCircle, Smiley, Star, CheckCircle } from 'phosphor-react';
 
 
 export const Header = styled.header`
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 24px;
-  border-bottom: 1px solid ${color.zinc['700']}
+  border-bottom: 1px solid ${color.fuchsia['600']}
 `
 
 export const Heading = styled.p`
