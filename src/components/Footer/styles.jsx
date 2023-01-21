@@ -27,7 +27,7 @@ export const SocialNetwork = styled.section`
 export const IconGithub = styled(GithubLogo)`
   cursor: pointer;
   font-size: 24px;
-  color: ${color.zinc['700']};
+  color: ${color.zinc['200']};
   &:hover{
     transition: 0.7s;
     color: ${color.fuchsia['600']};
@@ -37,7 +37,7 @@ export const IconGithub = styled(GithubLogo)`
 export const IconLinkedin = styled(LinkedinLogo)`
   cursor: pointer;
   font-size: 24px;
-  color: ${color.zinc['700']};
+  color: ${color.zinc['200']};
   &:hover{
     transition: 0.7s;
     color: ${color.fuchsia['600']};
