@@ -25,6 +25,12 @@ export const GlobalStyle = createGlobalStyle`
     list-style: none;
   }
 
+  h1,
+  h2,
+  h3 {
+    color: ${color.zinc['200']};
+  }
+
 	h1 {
 		font-size: ${fs.heading['lg']};
 		font-weight: 700;

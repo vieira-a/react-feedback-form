@@ -3,8 +3,13 @@ import { color } from '../../UI/Colors';
 import { fs } from '../../UI/Tipography';
 import { CaretRight } from 'phosphor-react';
 
-export const UserInfoMain = styled.main`
+export const UserInfoMain = styled.section`
   padding: 44px;
+`
+export const Heading = styled.section`
+  margin-top: 24px;
+  margin-bottom: 48px;
+  text-align: center;
 `
 
 export const UserInfoLabel = styled.label`

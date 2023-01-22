@@ -8,8 +8,16 @@ export const FeedbackContextProvider = ({children}) => {
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
+  const goToNextPage = () => {
+
+    const indexOfCurrentPage = pages.indexOf(currentPage)
+    const nextPage = indexOfCurrentPage + 1
+
+    setCurrentPage(pages[nextPage])
+  }
+
   return (
-    <FeedbackContext.Provider value={{pages, currentPage, setCurrentPage}}>
+    <FeedbackContext.Provider value={{pages, currentPage, setCurrentPage, goToNextPage}}>
       {children}
     </FeedbackContext.Provider>
   )

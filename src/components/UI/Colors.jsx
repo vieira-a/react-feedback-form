@@ -11,5 +11,4 @@ export const color = {
         600: '#C026D3',
         400: '#E879F9'
     }
-
 }
