@@ -1,9 +1,14 @@
 import Footer from "../../Footer/Footer"
 import Header from "../../Header/Header"
+import { useContext } from "react"
+import { FeedbackContext } from "../../../context/FeedbackContext"
 
 import * as S from "./styles"
 
 export default function UserSatisfaction () {
+
+  const { goToNextPage, goToBackPage } = useContext(FeedbackContext)
+
   return (
     <>
       <Header />
@@ -26,8 +31,8 @@ export default function UserSatisfaction () {
           </S.IconSatisfaction>
         </S.SatisfactionSection>
         <S.SectionController>
-          <S.IconBack/>
-          <S.IconForward/>
+          <S.IconBack onClick={goToBackPage}/>
+          <S.IconForward onClick={goToNextPage} />
         </S.SectionController>
       </S.UserSatisfactionMain>
       <Footer />

@@ -21,6 +21,8 @@ export const Text = styled.p`
 export const SatisfactionSection = styled.section`
   display: flex;
   gap: 24px;
+  align-items: center;
+  justify-content: center;
 `
 
 export const IconSatisfaction = styled.button`
