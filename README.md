@@ -59,11 +59,12 @@ Inicio: 16/01/2023 | Fim: 23/01/202
 
 - [ ] Criar conteúdo das páginas
   - [x] UserInfo
-  - [ ] UserSatisfaction
+  - [x] UserSatisfaction
   - [ ] UserRecomendation
   - [ ] FeedbackFinish
 
-- [ ] Criar rotas da aplicação com react-router-dom
+- [x] Criar contexto com Context API para compartilhar dados entre as páginas 
+- [x] Criar controles para navegar entre os componentes
 
 ## Layout
 
