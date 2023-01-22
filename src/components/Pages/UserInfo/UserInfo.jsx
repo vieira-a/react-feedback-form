@@ -1,6 +1,7 @@
 import * as S from './styles';
 import Header from "../../Header/Header";
 import Footer from '../../Footer/Footer';
+import PageIndicator from '../../PageIndicator/PageIndicator';
 
 import { useContext } from 'react';
 import { FeedbackContext } from '../../../context/FeedbackContext';
@@ -24,9 +25,7 @@ export default function UserInfo () {
           <S.Text>Qual o seu e-mail?</S.Text>
           <S.UserInfoInput type='email' name='email' placeholder='Digite o seu e-mail'/>
         </S.UserInfoLabel>
-        <S.SectionController>
-          <S.IconForward onClick={goToNextPage}/>
-        </S.SectionController>
+        <PageIndicator/>
       </S.UserInfoMain>
       <Footer />
     </>

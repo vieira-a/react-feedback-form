@@ -4,6 +4,7 @@ import { useContext } from "react"
 import { FeedbackContext } from "../../../context/FeedbackContext"
 
 import * as S from "./styles"
+import PageIndicator from "../../PageIndicator/PageIndicator"
 
 export default function UserSatisfaction () {
 
@@ -30,10 +31,7 @@ export default function UserSatisfaction () {
             <S.Text>Alta</S.Text>
           </S.IconSatisfaction>
         </S.SatisfactionSection>
-        <S.SectionController>
-          <S.IconBack onClick={goToBackPage}/>
-          <S.IconForward onClick={goToNextPage} />
-        </S.SectionController>
+        <PageIndicator />
       </S.UserSatisfactionMain>
       <Footer />
     </>

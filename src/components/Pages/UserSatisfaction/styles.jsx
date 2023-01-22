@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { color } from '../../UI/Colors';
 import { fs } from '../../UI/Tipography';
-import {Smiley, SmileyMeh, SmileySad, CaretRight, CaretLeft } from 'phosphor-react'
+import {Smiley, SmileyMeh, SmileySad } from 'phosphor-react'
 
 export const UserSatisfactionMain = styled.section`
   padding: 44px;
@@ -54,33 +54,4 @@ export const IconSmileySad = styled(SmileySad)`
   cursor: pointer;
   font-size: 32px;
   color: ${color.zinc['200']};
-`
-
-export const SectionController = styled.section`
-  padding-top: 56px;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  margin-block: 32px;
-`
-
-
-export const IconForward = styled(CaretRight)`
-  cursor: pointer;
-  font-size: 48px;
-  color: ${color.fuchsia['600']};
-  &:hover{
-    transition: 0.7s;
-    transform: scale(1.2);
-  }
-`
-
-export const IconBack = styled(CaretLeft)`
-  cursor: pointer;
-  font-size: 48px;
-  color: ${color.fuchsia['600']};
-  &:hover{
-    transition: 0.7s;
-    transform: scale(1.2);
-  }
 `
