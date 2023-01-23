@@ -60,7 +60,8 @@ Inicio: 16/01/2023 | Fim: 23/01/202
 - [ ] Criar conteúdo das páginas
   - [x] UserInfo
   - [x] UserSatisfaction
-  - [ ] UserRecomendation
+  - [x] UserRecomendation
+    - [ ] Criar component input estilizado com imagem conforme o layout
   - [ ] FeedbackFinish
 
 - [x] Criar contexto com Context API para compartilhar dados entre as páginas 
