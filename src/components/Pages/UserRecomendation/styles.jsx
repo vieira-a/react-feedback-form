@@ -19,11 +19,17 @@ export const RecomendationSection = styled.section`
 `
 
 export const CheckStar = styled.input`
-    visibility: hidden;
+  cursor: pointer;
+  &:focus svg{
+    color: ${color.fuchsia['600']};
+  }
+    
 `
 
 export const IconStar = styled(Star)` 
-  cursor: pointer;
   font-size: 32px;
   color: ${color.zinc['200']};
+  &:hover{
+    color: ${color.fuchsia['600']};
+  }
 `

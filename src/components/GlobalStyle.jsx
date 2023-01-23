@@ -46,6 +46,7 @@ export const GlobalStyle = createGlobalStyle`
 		font-weight: 500; 
 	}
 
+
   button {
     background: none;
     border: none;
@@ -59,6 +60,7 @@ export const GlobalStyle = createGlobalStyle`
     width: 100vw;
     height: 100vh;
     background-color: ${color.zinc['900']};
+    color: ${color.zinc['200']};
   }
 
 `

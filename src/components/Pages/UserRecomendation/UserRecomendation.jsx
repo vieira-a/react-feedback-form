@@ -13,11 +13,13 @@ export default function UserRecomendation () {
           <h2>Recomendaria os nossos serviços?</h2>
         </S.Heading>
         <S.RecomendationSection>
-          <S.IconStar/>
-          <S.IconStar/>
-          <S.IconStar/>
-          <S.IconStar/>
-          <S.IconStar/>
+
+          <label htmlFor="star">
+            <S.CheckStar type='checkbox' name="star"/>
+            <S.IconStar/>
+          </label>
+            
+            
         </S.RecomendationSection>
         <PageIndicator/>
       </S.UserRecomendationMain>

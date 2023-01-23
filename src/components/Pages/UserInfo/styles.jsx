@@ -30,9 +30,11 @@ export const UserInfoInput = styled.input`
   &:hover {
     background: ${color.zinc['900']};
     border: 1px solid ${color.fuchsia['600']} !important;
+    transition: 0.3s;
     &:focus {
       outline: none;
       border-color: 1px solid ${color.fuchsia['600']} !important;
+      transition: 0.3s;
     }
   }
 `

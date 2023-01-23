@@ -15,7 +15,8 @@ export default function PageIndicator(){
                 <S.IconForward onClick={goToNextPage}/>
             </> : 
             <>
-                <S.IconBack onClick={goToBackPage}/> && <S.IconForward onClick={goToNextPage}/>
+                <S.IconBack onClick={goToBackPage}/>
+                <S.IconForward onClick={goToNextPage}/>
             </>
              }
             

@@ -19,18 +19,31 @@ export default function UserSatisfaction () {
           <h2>Qual o seu nível de satisfação?</h2>
         </S.Heading>
           <S.SatisfactionSection>
-          <S.IconSatisfaction>
-            <S.IconSmileySad/>
+          
+          <S.IconSatisfactionContainer>
+            <S.IconSatisfactionLabel htmlFor="satisfaction">
+              <S.IconSatisfactionInput type='radio' name="satisfaction" value='low' />
+              <S.IconSmileySad/>
+            </S.IconSatisfactionLabel>
             <S.Text>Baixa</S.Text>
-          </S.IconSatisfaction>
-          <S.IconSatisfaction>
-            <S.IconSmileyMeh/>
+          </S.IconSatisfactionContainer>
+          
+          <S.IconSatisfactionContainer>
+            <S.IconSatisfactionLabel htmlFor="satisfaction">
+              <S.IconSatisfactionInput type='radio' name="satisfaction" value='normal'/>
+              <S.IconSmileyMeh/>
+            </S.IconSatisfactionLabel>
             <S.Text>Normal</S.Text>
-          </S.IconSatisfaction>
-          <S.IconSatisfaction>
-            <S.IconSmiley/>
+          </S.IconSatisfactionContainer>
+
+          <S.IconSatisfactionContainer>
+            <S.IconSatisfactionLabel htmlFor="satisfaction">
+              <S.IconSatisfactionInput type='radio' name="satisfaction" value='high'/>
+              <S.IconSmiley/>
+            </S.IconSatisfactionLabel>
             <S.Text>Alta</S.Text>
-          </S.IconSatisfaction>
+          </S.IconSatisfactionContainer>
+
         </S.SatisfactionSection>
         <PageIndicator />
       </S.UserSatisfactionMain>
