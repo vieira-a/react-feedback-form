@@ -4,6 +4,7 @@ import UserSatisfaction from "./components/Pages/UserSatisfaction/UserSatisfacti
 
 import { useContext } from "react";
 import { FeedbackContext } from "./context/FeedbackContext";
+import UserRecomendation from "./components/Pages/UserRecomendation/UserRecomendation";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <GlobalStyle />
       {currentPage === 'userInfo' && <UserInfo />}
       {currentPage === 'userSatisfaction' && <UserSatisfaction/>}
+      {currentPage === 'userRecomendation' && <UserRecomendation/>}
     </>
   )
 }

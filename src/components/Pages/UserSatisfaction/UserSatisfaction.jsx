@@ -1,10 +1,11 @@
 import Footer from "../../Footer/Footer"
 import Header from "../../Header/Header"
+import PageIndicator from "../../PageIndicator/PageIndicator"
+
 import { useContext } from "react"
 import { FeedbackContext } from "../../../context/FeedbackContext"
 
 import * as S from "./styles"
-import PageIndicator from "../../PageIndicator/PageIndicator"
 
 export default function UserSatisfaction () {
 

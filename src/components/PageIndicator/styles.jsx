@@ -5,7 +5,7 @@ import { CaretRight, CaretLeft } from 'phosphor-react';
 
 export const SectionController = styled.section`
   text-align: center;
-  margin-block: 32px;
+  margin-block: 64px;
 `
 
 
