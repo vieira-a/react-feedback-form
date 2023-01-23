@@ -18,9 +18,17 @@ export const RecomendationSection = styled.section`
   justify-content: center;
 `
 
+export const IconStarLabel = styled.label`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
+
 export const CheckStar = styled.input`
+  opacity: 0;
+  position: absolute;
   cursor: pointer;
-  &:focus svg{
+  &:checked ~ svg {
     color: ${color.fuchsia['600']};
   }
     

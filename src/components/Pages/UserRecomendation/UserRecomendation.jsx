@@ -14,10 +14,31 @@ export default function UserRecomendation () {
         </S.Heading>
         <S.RecomendationSection>
 
-          <label htmlFor="star">
-            <S.CheckStar type='checkbox' name="star"/>
+          <S.IconStarLabel htmlFor="star1">
+            <S.CheckStar type='checkbox' name="star1" value='1'/>
             <S.IconStar/>
-          </label>
+          </S.IconStarLabel>
+
+          <S.IconStarLabel htmlFor="star2">
+            <S.CheckStar type='checkbox' name="star2" value='2'/>
+            <S.IconStar/>
+          </S.IconStarLabel>
+
+          <S.IconStarLabel htmlFor="star3">
+            <S.CheckStar type='checkbox' name="star3" value='3'/>
+            <S.IconStar/>
+          </S.IconStarLabel>
+
+          <S.IconStarLabel htmlFor="star4">
+            <S.CheckStar type='checkbox' name="star4" value='4'/>
+            <S.IconStar/>
+          </S.IconStarLabel>
+
+          <S.IconStarLabel htmlFor="star4">
+            <S.CheckStar type='checkbox' name="star4" value='4'/>
+            <S.IconStar/>
+          </S.IconStarLabel>
+          
             
             
         </S.RecomendationSection>
