@@ -13,10 +13,6 @@ Refatoração de todo projeto utilizando o React de forma simplificada
 
 <br>
 
-<p align="center">
-  <img alt="Service Feedback" src=".github/bg-cover.png" width="100%">
-</p>
-
 ## Tecnologias
 
 Esse projeto está sendo refatorado com as seguintes tecnologias:
@@ -77,15 +73,3 @@ _Até onde a aplicação funciona_
 
 Os componentes serão refeitos utilizando princípios base do React;
 Utilizarei a biblioteca Material UI para simplificar o estilo e comportamento dos componentes.
-
-## Layout
-
-Utilizei o Figma para construção dos componentes e montagem do layout.
-
-## Aprendizado
-
-- Em construção.
-
----
-
-Feito por [Anderson Vieira](https://linkedin/in/vieira-a)
